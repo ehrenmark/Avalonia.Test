@@ -4,9 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:views="clr-namespace:AvaloniaApplicationTest.Views"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="450"
         x:Class="AvaloniaApplicationTest.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
+        Width="1200"
+        Height="600"
+        CanResize="False"
         Icon="/Assets/avalonia-logo.ico"
         Title="AvaloniaApplicationTest" TransparencyLevelHint="AcrylicBlur"
         Background="Transparent"
@@ -24,34 +27,52 @@
                     MaterialOpacity="0.65" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
-        <Panel Margin="40">
-            <DockPanel>
-                <Menu DockPanel.Dock="Top">
-                    <MenuItem Header="_File">
-                        <MenuItem Header="_Open..."/>
-                        <Separator/>
-                        <MenuItem Header="_Exit"/>
-                    </MenuItem>
-                    <MenuItem Header="_Edit">
-                        <MenuItem Header="Copy">
-                            <MenuItem.Icon>
-                                <PathIcon Data="{StaticResource copy_regular}"/>
-                            </MenuItem.Icon>
-                        </MenuItem>
-                        <MenuItem Header="Paste">
-                            <MenuItem.Icon>
-                                <PathIcon Data="{StaticResource clipboard_paste_regular}"/>
-                            </MenuItem.Icon>
-                        </MenuItem>
-                    </MenuItem>
-                </Menu>
-                <TextBlock/>
-            </DockPanel>
+        <Panel>
 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="280"/>
+                    <ColumnDefinition Width="1000"/>
+
+
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="500"/>
+                    <RowDefinition Height="250"/>
+                    <RowDefinition Height="250"/>
+                    <RowDefinition Height="250"/>
+
+                </Grid.RowDefinitions>
+                
+                <Panel Grid.Column="0" Grid.Row="0" Grid.RowSpan="4">
+
+                    <ExperimentalAcrylicBorder IsHitTestVisible="False">
+                        <ExperimentalAcrylicBorder.Material>
+                            <ExperimentalAcrylicMaterial
+                                BackgroundSource="Digger"
+                                TintColor="Black"
+                                TintOpacity="1"
+                                MaterialOpacity="0.8" />
+                        </ExperimentalAcrylicBorder.Material>
+                    </ExperimentalAcrylicBorder>
+                    <views:MainWindowMenuUserControl>
+                    
+                    </views:MainWindowMenuUserControl>
+                </Panel>                    
+                    
+
+                
+                
+                <Panel Grid.Column="1" Grid.Row="0" Margin="60">
+                    <views:MainWindowUserControl>
+                    
+                    </views:MainWindowUserControl>
+                </Panel>  
+                
+            </Grid>
             
-            <Panel Margin="60">
-                <views:MainWindowUserControl />
-            </Panel>  
+
         </Panel>
         
     </Panel>

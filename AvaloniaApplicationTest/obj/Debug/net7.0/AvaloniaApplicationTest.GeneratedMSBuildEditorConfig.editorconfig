@@ -24,5 +24,8 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [D:/GitHub/Avalonia.Test/AvaloniaApplicationTest/AvaloniaApplicationTest/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[D:/GitHub/Avalonia.Test/AvaloniaApplicationTest/AvaloniaApplicationTest/Views/MainWindowMenuUserControl.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [D:/GitHub/Avalonia.Test/AvaloniaApplicationTest/AvaloniaApplicationTest/Views/MainWindowUserControl.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

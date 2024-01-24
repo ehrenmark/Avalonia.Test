@@ -7,7 +7,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9870ac7-4b9b-412d-9c40-7413b28e4f53" name="Changes" comment="" />
+    <list default="true" id="d9870ac7-4b9b-412d-9c40-7413b28e4f53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/Views/MainWindowMenuUserControl.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/Views/MainWindowMenuUserControl.axaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplicationTest/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplicationTest/.idea/avalonia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplicationTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplicationTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/Views/MainWindowUserControl.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/Views/MainWindowUserControl.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/bin/Debug/net7.0/AvaloniaApplicationTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/bin/Debug/net7.0/AvaloniaApplicationTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/bin/Debug/net7.0/AvaloniaApplicationTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/bin/Debug/net7.0/AvaloniaApplicationTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/Avalonia/original.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/Avalonia/original.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/Avalonia/original.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/Avalonia/original.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/Avalonia/original.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/Avalonia/original.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/Avalonia/resources" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/Avalonia/resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/AvaloniaApplicationTest.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/AvaloniaApplicationTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/AvaloniaApplicationTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/AvaloniaApplicationTest.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/AvaloniaApplicationTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/AvaloniaApplicationTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/AvaloniaApplicationTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/AvaloniaApplicationTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/ref/AvaloniaApplicationTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/ref/AvaloniaApplicationTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/refint/AvaloniaApplicationTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AvaloniaApplicationTest/obj/Debug/net7.0/refint/AvaloniaApplicationTest.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,27 +53,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.AvaloniaApplicationTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.AvaloniaApplicationTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\m.kagermeier\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\m.kagermeier\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\m.kagermeier\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\m.kagermeier\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\m.kagermeier\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\m.kagermeier\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="QodanaHighlightedReportService">
     <option name="localRunNotPublishedPersistedInfo">
       <LocalReportPersistedInfo>
@@ -113,6 +133,7 @@
       <workItem from="1706077098241" duration="27000" />
       <workItem from="1706077219635" duration="978000" />
       <workItem from="1706080325263" duration="50000" />
+      <workItem from="1706080393357" duration="10709000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -149,6 +170,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="test" />

@@ -6,6 +6,7 @@
         <entry key="AvaloniaApplicationTest/App.axaml" value="AvaloniaApplicationTest/AvaloniaApplicationTest.csproj" />
         <entry key="AvaloniaApplicationTest/Icons.axaml" value="AvaloniaApplicationTest/AvaloniaApplicationTest.csproj" />
         <entry key="AvaloniaApplicationTest/Views/MainWindow.axaml" value="AvaloniaApplicationTest/AvaloniaApplicationTest.csproj" />
+        <entry key="AvaloniaApplicationTest/Views/MainWindowMenuUserControl.axaml" value="AvaloniaApplicationTest/AvaloniaApplicationTest.csproj" />
         <entry key="AvaloniaApplicationTest/Views/MainWindowUserControl.axaml" value="AvaloniaApplicationTest/AvaloniaApplicationTest.csproj" />
         <entry key="AvaloniaApplicationTest/Views/NewWindow.axaml" value="AvaloniaApplicationTest/AvaloniaApplicationTest.csproj" />
         <entry key="AvaloniaApplicationTest/Views/asdf.axaml" value="AvaloniaApplicationTest/AvaloniaApplicationTest.csproj" />
