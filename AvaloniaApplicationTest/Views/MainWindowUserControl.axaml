@@ -1,0 +1,49 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="AvaloniaApplicationTest.Views.MainWindowUserControl">
+    
+    <StackPanel>
+        <Grid Margin="40" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="250"/>
+
+            </Grid.ColumnDefinitions>
+
+            <!-- RowDefinitions hinzugefügt -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/> <!-- Neu hinzugefügt für TextBlocks -->
+            </Grid.RowDefinitions>
+            
+            <Button Grid.Row="0" Grid.Column="0" Width="200" Height="200" CornerRadius="20">
+                <Button.Content>
+                    <TextBlock Margin="0,10,0,0" Text="test" HorizontalAlignment="Center" VerticalAlignment="Bottom"></TextBlock>
+                    <!-- <Image Source="your_image_path1.png" Stretch="Uniform"/> -->            
+                </Button.Content>
+            </Button>
+            
+            <Button Grid.Row="0" Grid.Column="1" Width="200" Height="200" CornerRadius="20">
+                <Button.Content>
+                    <TextBlock Margin="0,10,0,0" Text="test" HorizontalAlignment="Center" VerticalAlignment="Bottom"></TextBlock>
+                    <!-- <Image Source="your_image_path1.png" Stretch="Uniform"/> -->            
+                </Button.Content>
+            </Button>          
+            
+            <Button Grid.Row="0" Grid.Column="2" Width="200" Height="200" CornerRadius="20">
+                <Button.Content>
+                    <TextBlock Margin="0,10,0,0" Text="test" HorizontalAlignment="Center" VerticalAlignment="Bottom"></TextBlock>
+                    <!-- <Image Source="your_image_path1.png" Stretch="Uniform"/> -->            
+                </Button.Content>
+            </Button>    
+            <Separator Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"/>
+
+            <Separator Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"/>
+        </Grid>
+    </StackPanel>
+</UserControl>
